@@ -1,7 +1,5 @@
-# Calculator
+# Library
 
-This is my Repository for the Calculator Assignment of the Odin-Project.
-
-More functionality will be added.
+This is my Repository for the Library Assignment of the Odin-Project.
 
 [Live Preview](https://jntlmb.github.io/library/) 👈
