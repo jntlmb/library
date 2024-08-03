@@ -64,18 +64,34 @@ function printBooks(lib) {
       "text-xl",
       "font-semibold",
       "text-center",
-      "text-gray-200"
+      "text-gray-200",
+      "text-clip",
+      "overflow-hidden"
     );
     title.textContent = data.bookTitle;
 
     // author
     const author = document.createElement("p");
-    author.classList.add("text-lg", "text-center", "text-gray-300");
+    author.classList.add(
+      "text-lg",
+      "text-center",
+      "text-gray-300",
+      "text-clip",
+      "overflow-hidden",
+      "whitespace-nowrap"
+    );
     author.innerHTML = `Author: ${data.bookAuthor}`;
 
     // pages
     const pages = document.createElement("p");
-    pages.classList.add("text-lg", "text-center", "text-gray-300");
+    pages.classList.add(
+      "text-lg",
+      "text-center",
+      "text-gray-300",
+      "text-clip",
+      "overflow-hidden",
+      "whitespace-nowrap"
+    );
     pages.innerHTML = `Pages: ${data.bookPages}`;
 
     // button container
